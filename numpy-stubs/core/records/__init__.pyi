@@ -12,8 +12,6 @@ def fromarrays(
     aligned: bool = ...,
     byteorder: Optional[str] = ...,
 ) -> np.ndarray: ...
-
-
 def fromrecords(
     recList: Sequence[Tuple],
     dtype: Optional[np._DtypeLike] = ...,
